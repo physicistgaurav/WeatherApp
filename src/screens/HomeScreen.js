@@ -31,7 +31,7 @@ const HomeScreen = () => {
         "https://api.weatherapi.com/v1/forecast.json",
         {
           params: {
-            key: "0b57a6a393784f5bbd2114742232405",
+            key: "Your API Key",
             q: searchQuery,
             days: 7,
           },
@@ -61,7 +61,7 @@ const HomeScreen = () => {
         "https://api.weatherapi.com/v1/current.json",
         {
           params: {
-            key: "0b57a6a393784f5bbd2114742232405",
+            key: "Your API Key",
             q: searchQuery,
           },
         }
